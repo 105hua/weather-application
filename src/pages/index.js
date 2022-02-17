@@ -6,6 +6,7 @@ import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
 import Helmet from "react-helmet";
 import "./css/grid.css";
+import "./css/body.css";
 
 // Page Style Variables.
 
@@ -69,10 +70,6 @@ const conditionStyle = {
 // Page code.
 
 const IndexPage = () => { // Define the index page variable.
-
-  // Define body styles here.
-  var bodyStyle = document.body.style
-  bodyStyle.backgroundColor = "aliceblue";
 
   function changeToCelcius(){
 
